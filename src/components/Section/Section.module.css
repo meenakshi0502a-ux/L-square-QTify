@@ -1,0 +1,60 @@
+.section {
+  padding: 32px;
+  background-color: #121212;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.toggleButton {
+  background: transparent;
+  border: none;
+  color: #34c94b;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.tabs {
+  min-height: 48px;
+}
+
+.tabs :global(.MuiTabs-flexContainer) {
+  gap: 12px;
+}
+
+.tabs :global(.MuiTab-root) {
+  color: #ffffff;
+  min-width: 64px;
+  padding: 8px 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: none;
+  opacity: 1;
+}
+
+.tabs :global(.MuiTab-root.Mui-selected) {
+  color: #34c94b;
+}
+
+.tabs :global(.MuiTabs-indicator) {
+  height: 3px;
+  background-color: #34c94b;
+}

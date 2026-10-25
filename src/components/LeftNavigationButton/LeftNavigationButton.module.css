@@ -1,0 +1,18 @@
+.button {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: #34c94b;
+  color: #121212;
+
+  font-size: 32px;
+  line-height: 1;
+  cursor: pointer;
+}
