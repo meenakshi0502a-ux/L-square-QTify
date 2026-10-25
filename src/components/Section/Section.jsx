@@ -16,7 +16,7 @@ function Section({
   const [items, setItems] = useState([]);
   const [genres, setGenres] = useState([]);
   const [selectedGenre, setSelectedGenre] = useState("all");
-  const [showCarousel, setShowCarousel] = useState(false);
+  const [showCarousel, setShowCarousel] = useState(true);
 
   useEffect(() => {
     const fetchItems = async () => {
